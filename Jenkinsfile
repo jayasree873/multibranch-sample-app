@@ -8,9 +8,6 @@ pipeline{
       }
     }
     stage ("first") {
-      tools {
-         jdk "jdk-1.8.0_261"
-      }
       steps {
         sh 'java -version'
       }
