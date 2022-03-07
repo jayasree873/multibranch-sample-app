@@ -11,11 +11,11 @@ pipeline{
 
       steps {
 
-        sh '''
+        sh 'java -version'
 
-          java -version
+         
 
-        '''
+     
 
       }
 
