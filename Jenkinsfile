@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 pipeline{
   agent { label 'master'}
   stages{
@@ -29,4 +28,4 @@ pipeline{
     
   }
 }
->>>>>>> fix
+
