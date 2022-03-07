@@ -6,23 +6,7 @@ pipeline{
               powershell 'python --version'
           }
     }
-    stage('cat fixfile') {
 
-          when {
-
-            branch "fix*"
-
-          }
-
-          steps {
-
-            sh 'cat fixfile'
-
-
-
-          }
-
-    }
     
   }
 }
