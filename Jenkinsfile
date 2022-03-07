@@ -10,7 +10,7 @@ pipeline{
     
   }
 }
-=======
+
 pipeline{
   agent { label 'master'}
   stages{
