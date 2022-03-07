@@ -7,10 +7,10 @@ pipeline{
         
       }
     }
-    stage ("first") {
-      steps {
-        sh 'java -version'
-      }
+    stage('build') {
+          steps {
+              powershell 'python --version'
+          }
     }
     
   }
