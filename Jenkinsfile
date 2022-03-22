@@ -4,7 +4,7 @@ pipeline{
 
     stage('build') {
           steps {
-              sh 'python --version'
+              echo "welcome to main barnch"
           }
     }
     
